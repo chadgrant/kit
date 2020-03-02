@@ -26,7 +26,6 @@ require (
 	github.com/hashicorp/consul/api v1.3.0
 	github.com/hashicorp/go-version v1.2.0 // indirect
 	github.com/hudl/fargo v1.3.0
-	github.com/influxdata/influxdb1-client v0.0.0-20191209144304-8bf82d3c094d
 	github.com/lightstep/lightstep-tracer-go v0.18.1
 	github.com/nats-io/nats-server/v2 v2.1.2
 	github.com/nats-io/nats.go v1.9.1
