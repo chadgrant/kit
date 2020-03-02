@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/go-kit/kit/endpoint"
-	"github.com/go-kit/kit/log"
-	"github.com/go-kit/kit/metrics"
+	"github.com/chadgrant/kit/endpoint"
+	"github.com/chadgrant/kit/log"
+	"github.com/chadgrant/kit/metrics"
 )
 
 // InstrumentingMiddleware returns an endpoint middleware that records

@@ -7,14 +7,15 @@ import (
 	"context"
 	"flag"
 	"fmt"
-	"github.com/apache/thrift/lib/go/thrift"
-	"github.com/go-kit/kit/examples/addsvc/thrift/gen-go/addsvc"
 	"math"
 	"net"
 	"net/url"
 	"os"
 	"strconv"
 	"strings"
+
+	"github.com/apache/thrift/lib/go/thrift"
+	"github.com/chadgrant/kit/examples/addsvc/thrift/gen-go/addsvc"
 )
 
 func Usage() {

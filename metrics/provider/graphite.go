@@ -1,8 +1,8 @@
 package provider
 
 import (
-	"github.com/go-kit/kit/metrics"
-	"github.com/go-kit/kit/metrics/graphite"
+	"github.com/chadgrant/kit/metrics"
+	"github.com/chadgrant/kit/metrics/graphite"
 )
 
 type graphiteProvider struct {

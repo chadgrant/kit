@@ -6,7 +6,7 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/go-kit/kit/log"
+	"github.com/chadgrant/kit/log"
 	"github.com/go-logfmt/logfmt"
 )
 

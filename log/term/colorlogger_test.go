@@ -8,8 +8,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/go-kit/kit/log"
-	"github.com/go-kit/kit/log/term"
+	"github.com/chadgrant/kit/log"
+	"github.com/chadgrant/kit/log/term"
 )
 
 func TestColorLogger(t *testing.T) {

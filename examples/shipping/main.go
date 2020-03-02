@@ -13,17 +13,17 @@ import (
 	stdprometheus "github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 
-	"github.com/go-kit/kit/log"
-	kitprometheus "github.com/go-kit/kit/metrics/prometheus"
+	"github.com/chadgrant/kit/log"
+	kitprometheus "github.com/chadgrant/kit/metrics/prometheus"
 
-	"github.com/go-kit/kit/examples/shipping/booking"
-	"github.com/go-kit/kit/examples/shipping/cargo"
-	"github.com/go-kit/kit/examples/shipping/handling"
-	"github.com/go-kit/kit/examples/shipping/inmem"
-	"github.com/go-kit/kit/examples/shipping/inspection"
-	"github.com/go-kit/kit/examples/shipping/location"
-	"github.com/go-kit/kit/examples/shipping/routing"
-	"github.com/go-kit/kit/examples/shipping/tracking"
+	"github.com/chadgrant/kit/examples/shipping/booking"
+	"github.com/chadgrant/kit/examples/shipping/cargo"
+	"github.com/chadgrant/kit/examples/shipping/handling"
+	"github.com/chadgrant/kit/examples/shipping/inmem"
+	"github.com/chadgrant/kit/examples/shipping/inspection"
+	"github.com/chadgrant/kit/examples/shipping/location"
+	"github.com/chadgrant/kit/examples/shipping/routing"
+	"github.com/chadgrant/kit/examples/shipping/tracking"
 )
 
 const (

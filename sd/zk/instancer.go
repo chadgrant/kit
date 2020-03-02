@@ -3,9 +3,9 @@ package zk
 import (
 	"github.com/samuel/go-zookeeper/zk"
 
-	"github.com/go-kit/kit/log"
-	"github.com/go-kit/kit/sd"
-	"github.com/go-kit/kit/sd/internal/instance"
+	"github.com/chadgrant/kit/log"
+	"github.com/chadgrant/kit/sd"
+	"github.com/chadgrant/kit/sd/internal/instance"
 )
 
 // Instancer yield instances stored in a certain ZooKeeper path. Any kind of

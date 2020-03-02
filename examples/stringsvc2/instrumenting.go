@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/go-kit/kit/metrics"
+	"github.com/chadgrant/kit/metrics"
 )
 
 type instrumentingMiddleware struct {

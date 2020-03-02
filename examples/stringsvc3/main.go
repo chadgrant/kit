@@ -9,9 +9,9 @@ import (
 	stdprometheus "github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 
-	"github.com/go-kit/kit/log"
-	kitprometheus "github.com/go-kit/kit/metrics/prometheus"
-	httptransport "github.com/go-kit/kit/transport/http"
+	"github.com/chadgrant/kit/log"
+	kitprometheus "github.com/chadgrant/kit/metrics/prometheus"
+	httptransport "github.com/chadgrant/kit/transport/http"
 )
 
 func main() {

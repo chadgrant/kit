@@ -8,13 +8,13 @@ import (
 
 	"github.com/gorilla/mux"
 
-	kitlog "github.com/go-kit/kit/log"
-	"github.com/go-kit/kit/transport"
-	kithttp "github.com/go-kit/kit/transport/http"
+	kitlog "github.com/chadgrant/kit/log"
+	"github.com/chadgrant/kit/transport"
+	kithttp "github.com/chadgrant/kit/transport/http"
 
-	"github.com/go-kit/kit/examples/shipping/cargo"
-	"github.com/go-kit/kit/examples/shipping/location"
-	"github.com/go-kit/kit/examples/shipping/voyage"
+	"github.com/chadgrant/kit/examples/shipping/cargo"
+	"github.com/chadgrant/kit/examples/shipping/location"
+	"github.com/chadgrant/kit/examples/shipping/voyage"
 )
 
 // MakeHandler returns a handler for the handling service.

@@ -9,9 +9,9 @@ import (
 
 	gosyslog "log/syslog"
 
-	"github.com/go-kit/kit/log"
-	"github.com/go-kit/kit/log/level"
-	"github.com/go-kit/kit/log/syslog"
+	"github.com/chadgrant/kit/log"
+	"github.com/chadgrant/kit/log/level"
+	"github.com/chadgrant/kit/log/syslog"
 )
 
 func ExampleNewSyslogLogger_defaultPrioritySelector() {

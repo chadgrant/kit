@@ -8,13 +8,13 @@ import (
 
 	"github.com/sony/gobreaker"
 
-	"github.com/go-kit/kit/circuitbreaker"
-	"github.com/go-kit/kit/endpoint"
-	"github.com/go-kit/kit/ratelimit"
+	"github.com/chadgrant/kit/circuitbreaker"
+	"github.com/chadgrant/kit/endpoint"
+	"github.com/chadgrant/kit/ratelimit"
 
-	"github.com/go-kit/kit/examples/addsvc/pkg/addendpoint"
-	"github.com/go-kit/kit/examples/addsvc/pkg/addservice"
-	addthrift "github.com/go-kit/kit/examples/addsvc/thrift/gen-go/addsvc"
+	"github.com/chadgrant/kit/examples/addsvc/pkg/addendpoint"
+	"github.com/chadgrant/kit/examples/addsvc/pkg/addservice"
+	addthrift "github.com/chadgrant/kit/examples/addsvc/thrift/gen-go/addsvc"
 )
 
 type thriftServer struct {

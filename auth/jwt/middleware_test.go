@@ -8,8 +8,8 @@ import (
 
 	"crypto/subtle"
 
+	"github.com/chadgrant/kit/endpoint"
 	jwt "github.com/dgrijalva/jwt-go"
-	"github.com/go-kit/kit/endpoint"
 )
 
 type customClaims struct {
