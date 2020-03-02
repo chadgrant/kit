@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# This script updates each non-stdlib, non-Go-kit dependency to its most recent
+# This script updates each non-stdlib, non-kit dependency to its most recent
 # commit. It can be invoked to aid in debugging after a dependency-related
 # failure on continuous integration.
 
@@ -13,7 +13,7 @@ function unique_repos {
 }
 
 function not_gokit {
-	grep -v 'go-kit/kit'
+	grep -v 'kit/kit'
 }
 
 function go_get_update {

@@ -2,8 +2,8 @@
 
 ![GitHub Workflow Status](https://github.com/chadgrant/kit/workflows/CI/badge.svg)
 [![GoDev](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white&style=flat-square)](https://pkg.go.dev/github.com/chadgrant/kit?tab=doc)
-[![codecov](https://codecov.io/gh/go-kit/kit/branch/master/graph/badge.svg)](https://codecov.io/gh/go-kit/kit)
-[![Go Report Card](https://goreportcard.com/badge/go-kit/kit)](https://goreportcard.com/report/go-kit/kit)
+[![codecov](https://codecov.io/gh/kit/kit/branch/master/graph/badge.svg)](https://codecov.io/gh/kit/kit)
+[![Go Report Card](https://goreportcard.com/badge/kit/kit)](https://goreportcard.com/report/kit/kit)
 [![Sourcegraph](https://sourcegraph.com/github.com/chadgrant/kit/-/badge.svg)](https://sourcegraph.com/github.com/chadgrant/kit?badge)
 
 **Go kit** is a **programming toolkit** for building microservices
@@ -12,8 +12,8 @@ systems and application architecture so you can focus on delivering
 business value.
 
 - Website: [gokit.io](https://gokit.io)
-- Mailing list: [go-kit](https://groups.google.com/forum/#!forum/go-kit)
-- Slack: [gophers.slack.com](https://gophers.slack.com) **#go-kit** ([invite](https://gophersinvite.herokuapp.com/))
+- Mailing list: [kit](https://groups.google.com/forum/#!forum/kit)
+- Slack: [gophers.slack.com](https://gophers.slack.com) **#kit** ([invite](https://gophersinvite.herokuapp.com/))
 
 ## Sponsors
 
@@ -37,14 +37,14 @@ organizations of any size.
 
 For more details, see
  [the website](https://gokit.io),
- [the motivating blog post](http://peter.bourgon.org/go-kit/) and
+ [the motivating blog post](http://peter.bourgon.org/kit/) and
  [the video of the talk](https://www.youtube.com/watch?v=iFR_7AKkJFU).
 See also the
  [Go kit talk at GopherCon 2015](https://www.youtube.com/watch?v=1AjaZi4QuGo).
 
 ## Goals
 
-- Operate in a heterogeneous SOA — expect to interact with mostly non-Go-kit services
+- Operate in a heterogeneous SOA — expect to interact with mostly non-kit services
 - RPC as the primary messaging pattern
 - Pluggable serialization and transport — not just JSON over HTTP
 - Operate within existing infrastructures — no mandates for specific tools or technologies
