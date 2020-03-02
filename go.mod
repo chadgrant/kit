@@ -1,6 +1,6 @@
 module github.com/chadgrant/kit
 
-go 1.13
+go 1.14
 
 require (
 	github.com/VividCortex/gohistogram v1.0.0
@@ -19,7 +19,6 @@ require (
 	github.com/edsrzf/mmap-go v1.0.0 // indirect
 	github.com/franela/goblin v0.0.0-20200105215937-c9ffbefa60db // indirect
 	github.com/franela/goreq v0.0.0-20171204163338-bcd34c9993f8 // indirect
-	github.com/go-kit/kit v0.9.0
 	github.com/go-logfmt/logfmt v0.5.0
 	github.com/go-stack/stack v1.8.0
 	github.com/golang/protobuf v1.3.2
